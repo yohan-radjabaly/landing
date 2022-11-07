@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+	padding: 20px;
+  flex-basis: 300px;
+  flex-grow: 1;
+  margin: 40px;
+  color: #5cbfc4;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 35px;
+  border: 2px solid #5cbfc4;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  background-color: #5cbfc4;
+  color: white;
+}

@@ -1,0 +1,14 @@
+.btn-blue {
+  border-radius: 8px;
+  color: #5cbfc4;
+  background-color: white;
+  font-family: 'Passion One', cursive;
+  font-size: 35px;
+  justify-content: center;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.btn-blue:hover {
+  font-size: 55px;
+}
